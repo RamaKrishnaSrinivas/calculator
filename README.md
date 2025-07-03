@@ -1,2 +1,3 @@
 # calculator.html
 this is calculator which an perform some basic operations like arithmetic and comparison...
+By using (HTML5,CSS3,JS) i did this calculator.
