@@ -7,6 +7,11 @@ function cleard() {
     var display = document.getElementById('display');
     display.value = "";
 }
+
+function backspace() {
+    let display = document.getElementById("display");
+    display.value = display.value.slice(0, -1);
+}
 function cube() {
     var display = document.getElementById('display');
     display.value = (+display.value) **3;
@@ -32,8 +37,4 @@ function confirmClose() {
     window.close();
     
   }
-}
-function backspace() {
-    let display = document.getElementById("display");
-    display.value = display.value.slice(0, -1);
 }
