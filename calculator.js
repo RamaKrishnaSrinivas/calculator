@@ -30,11 +30,3 @@ function sum() {
         display.value = "Error";
     }
 }
-var mywindow;
-function confirmClose() {
-  if (confirm("Are you sure you want to close this page?")) 
-  {
-    window.close();
-    
-  }
-}
